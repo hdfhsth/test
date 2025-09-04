@@ -127,7 +127,7 @@ function Library:SetupAboutUs(AboutUs)
 		Title = "Discord Link (Click to Copy)",
 		Icon = "link",
 		Callback = function()
-			setclipboard("https://discord.gg/9ZfYqU3t4N")
+	    setclipboard("https://discord.gg/9ZfYqU3t4N")
          WindUI:Notify({
             Title = "COPIED!",
             Content = "link discord is coopied!",
